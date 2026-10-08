@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Daniele | Odontologia de Alta Performance</title>
+    <meta name="description" content="Transformando sorrisos com tecnologia AirFlow, estética e ortodontia. Agende sua consulta com a Dra. Daniele.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-inner">
+            <img src="assets/Dra.Daniele.png" alt="Logo" class="preloader-logo">
+            <div class="preloader-bar"><div class="preloader-fill"></div></div>
+        </div>
+    </div>
+    <style>
+        /* Garante que o preloader some mesmo sem JS */
+        #preloader { animation: preloaderOut 0.5s ease 2s forwards; }
+        @keyframes preloaderOut { to { opacity: 0; visibility: hidden; pointer-events: none; } }
+    </style>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="container nav-content">
+            <a href="#home" class="logo-link">
+                <img src="assets/Dra.Daniele.png" alt="Logo Dra. Daniele" class="nav-logo">
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#airflow">AirFlow</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#contato" class="btn btn-primary btn-sm">Agendar</a></li>
+            </ul>
+
+            <!-- Hamburger mobile -->
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MENU MOBILE -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#airflow">AirFlow</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li><a href="#contato" class="btn btn-primary">Agendar Consulta</a></li>
+        </ul>
+    </div>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="hero-bg-decoration"></div>
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content reveal">
+                        <span class="hero-eyebrow">✦ Odontologia de Alta Performance</span>
+                        <h1>Seu Sorriso é a <br><span>Nossa Prioridade</span></h1>
+                    <h3 class="hero-subtitle">Dra. Daniele Marques <span>·</span> Cirurgiã-Dentista | Odontologia Humanizada e Personalizada</h3>
+                    <p class="hero-text-justify">A Dra. Daniele Marques acredita que cuidar da saúde bucal vai muito além de tratar dentes. É compreender cada paciente, respeitar sua individualidade e oferecer um atendimento baseado na confiança, na ética e no acolhimento.</p>
+                    <p class="hero-text-justify">Com uma abordagem cuidadosa e atenção aos detalhes, dedica-se a proporcionar tratamentos odontológicos individualizados, priorizando a saúde, o conforto, a funcionalidade e a harmonia do sorriso.</p>
+                    <p class="hero-text-justify">Seu trabalho é pautado na escuta atenta, no planejamento criterioso e na busca constante por conhecimento e recursos que contribuam para a qualidade do atendimento.</p>
+                    <p class="hero-text-justify">Mais do que realizar procedimentos, seu propósito é construir relações de confiança e proporcionar uma experiência odontológica tranquila, segura e humanizada.</p>
+                    <p class="hero-quote">"Cuidar de sorrisos é também cuidar de pessoas, histórias e sentimentos."</p>
+                        <div class="hero-btns">
+                            <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
+                            <a href="#sobre" class="btn btn-outline">Saiba Mais →</a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="hero-image reveal">
+                        <div class="hero-image-wrapper">
+                            <img src="assets/foto7.jpeg" alt="Dra. Daniele Marques">
+                            <div class="hero-badge">
+                                <span>⭐ 5.0</span>
+                                <p>Avaliação dos pacientes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section id="servicos" class="services">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">✦ O que oferecemos</span>
+                    <h2>Nossos Serviços</h2>
+                    <p>Excelência e tecnologia em cada procedimento para garantir o seu melhor sorriso.</p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card reveal">
+                        <div class="service-icon">🦷</div>
+                        <h3>AirFlow</h3>
+                        <p>Limpeza profunda com o equipamento mais tecnológico da geração, garantindo conforto e eficácia sem dor.</p>
+                        <a href="#airflow" class="service-link">Saiba mais →</a>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <div class="service-icon">✨</div>
+                        <h3>Estética</h3>
+                        <p>Lentes de contato e facetas de porcelana planejadas para um sorriso natural e radiante.</p>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <div class="service-icon">📏</div>
+                        <h3>Ortodontia</h3>
+                        <p>Alinhadores invisíveis e aparelhos modernos para correção precisa em todas as idades.</p>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <div class="service-icon">🏥</div>
+                        <h3>Clínica Geral</h3>
+                        <p>Check-ups preventivos e manutenção da saúde bucal para toda a família com carinho.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- AIRFLOW -->
+        <section id="airflow" class="airflow-section">
+            <div class="airflow-top">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <span class="section-eyebrow">✦ Tecnologia de Ponta</span>
+                        <h2>Conheça o <span class="gold-text">AirFlow</span></h2>
+                        <p>A limpeza dental mais avançada do mundo, agora disponível aqui em Brasília.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="airflow-intro-grid">
+                    <div class="video-wrapper reveal">
+                        <iframe 
+                            src="https://www.youtube.com/embed/X9jW8SjjbEw" 
+                            title="Tecnologia AirFlow - Dra. Daniele"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="airflow-intro-text reveal">
+                        <span class="section-eyebrow">✦ O que é?</span>
+                        <h3>A limpeza que você nunca sentiu antes</h3>
+                        <p>O AirFlow é um sistema de limpeza dental de última geração que utiliza um jato de água, ar e pó para remover biofilme, manchas e tártaro de forma rápida, eficaz e praticamente sem desconforto.</p>
+                        <p>Diferente da limpeza tradicional, o AirFlow não usa instrumentos abrasivos, tornando o procedimento muito mais confortável — ideal para quem tem sensibilidade ou medo de dentista.</p>
+                        <a href="#contato" class="btn btn-primary">Agendar AirFlow</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="airflow-benefits-bg">
+                <div class="container">
+                    <h3 class="benefits-title reveal">Por que escolher o <span class="gold-text">AirFlow?</span></h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-card reveal">
+                            <div class="benefit-icon">💨</div>
+                            <h4>Sem Dor</h4>
+                            <p>Procedimento suave que não causa desconforto, ideal para pacientes com sensibilidade dentária.</p>
+                        </div>
+                        <div class="benefit-card reveal">
+                            <div class="benefit-icon">⚡</div>
+                            <h4>Rápido e Eficaz</h4>
+                            <p>Remove manchas de café, vinho e cigarro em minutos, com resultado muito superior à limpeza convencional.</p>
+                        </div>
+                        <div class="benefit-card reveal">
+                            <div class="benefit-icon">🦠</div>
+                            <h4>Elimina Biofilme</h4>
+                            <p>Remove 100% do biofilme dental, prevenindo cáries, gengivite e doenças periodontais.</p>
+                        </div>
+                        <div class="benefit-card reveal">
+                            <div class="benefit-icon">🏆</div>
+                            <h4>Tecnologia Suíça</h4>
+                            <p>Equipamento EMS certificado, reconhecido mundialmente como o padrão ouro em higiene dental.</p>
+                        </div>
+                        <div class="benefit-card reveal">
+                            <div class="benefit-icon">😄</div>
+                            <h4>Sorriso Mais Branco</h4>
+                            <p>Resultado imediato com dentes visivelmente mais limpos e brancos logo após o procedimento.</p>
+                        </div>
+                        <div class="benefit-card reveal">
+                            <div class="benefit-icon">🔬</div>
+                            <h4>Cientificamente Aprovado</h4>
+                            <p>Baseado em evidências científicas e recomendado pela Guided Biofilm Therapy (GBT).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="airflow-photo-cta">
+                    <div class="airflow-photo reveal">
+                        <img src="assets/airflow-foto.png" alt="Dra. Daniele com equipamento AirFlow">
+                        <div class="airflow-photo-badge">
+                            <strong>Guided Biofilm Therapy®</strong>
+                            <span>Certificação Internacional</span>
+                        </div>
+                    </div>
+                    <div class="airflow-cta-box reveal">
+                        <span class="section-eyebrow">✦ Agende Agora</span>
+                        <h3>Transforme sua saúde bucal com o AirFlow</h3>
+                        <p>A Dra. Daniele é especialista certificada em AirFlow e Guided Biofilm Therapy, trazendo o que há de mais moderno para Brasília.</p>
+                        <ul class="airflow-cta-list">
+                            <li>✅ Procedimento rápido (45 min)</li>
+                            <li>✅ Sem dor e sem desconforto</li>
+                            <li>✅ Resultado imediato</li>
+                            <li>✅ Indicado para toda a família</li>
+                        </ul>
+                        <div class="airflow-cta-btns">
+                            <a href="https://wa.me/5561981646588" target="_blank" class="btn btn-primary">Agendar pelo WhatsApp</a>
+                            <a href="#sobre" class="btn btn-outline">Conhecer a Dra. Daniele →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="about">
+            <div class="container about-grid">
+                <div class="about-image reveal">
+                    <div class="about-image-wrapper">
+                        <img src="assets/Foto.png" alt="Dra. Daniele em seu consultório">
+                        <div class="about-years-badge">
+                            <strong>+8</strong>
+                            <span>Anos de experiência</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <span class="section-eyebrow">✦ Quem somos</span>
+                    <h2>Excelência em cada detalhe</h2>
+                    <p>Nossa clínica nasceu do desejo de transformar a experiência odontológica. Combinamos tecnologia de ponta com um atendimento humanizado e acolhedor.</p>
+                    <p>Sob a liderança da <strong>Dra. Daniele Marques</strong>, Cirurgiã-Dentista apaixonada pelo que faz, nossa equipe se dedica a criar sorrisos que refletem a saúde e a personalidade de cada paciente.</p>
+                    
+                    <ul class="about-features">
+                        <li>✅ Tecnologia de última geração (AirFlow)</li>
+                        <li>✅ Atendimento personalizado e humanizado</li>
+                        <li>✅ Ambiente moderno e acolhedor</li>
+                        <li>✅ Especialista em estética e saúde bucal</li>
+                        <li>✅ Ideal para quem tem medo de dentista</li>
+                    </ul>
+
+                    <a href="#contato" class="btn btn-primary" style="margin-top: 28px;">Agendar Consulta</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">✦ Galeria</span>
+                    <h2>Conheça a Dra. Daniele</h2>
+                    <p>Odontologia com ciência, estética e cuidado real para você.</p>
+                </div>
+
+                <div class="carousels-row">
+
+                    <!-- Carrossel 1 -->
+                    <div class="carousel-wrapper reveal">
+                        <div class="carousel-track" id="carouselTrack1">
+                            <div class="carousel-slide"><img src="assets/foto1.jpeg" alt="Dra. Daniele Marques no consultório"></div>
+                            <div class="carousel-slide"><img src="assets/foto2.jpeg" alt="Odontologia também é acolhimento"></div>
+                            <div class="carousel-slide"><img src="assets/foto3.jpeg" alt="Mais do que cuidar de sorrisos, eu cuido de pessoas"></div>
+                        </div>
+                        <button class="carousel-btn carousel-prev" id="prevBtn1" aria-label="Anterior">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+                        </button>
+                        <button class="carousel-btn carousel-next" id="nextBtn1" aria-label="Próximo">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                        </button>
+                        <div class="carousel-dots">
+                            <button class="dot active" data-index="0"></button>
+                            <button class="dot" data-index="1"></button>
+                            <button class="dot" data-index="2"></button>
+                        </div>
+                    </div>
+
+                    <!-- Carrossel 2 -->
+                    <div class="carousel-wrapper reveal">
+                        <div class="carousel-track" id="carouselTrack2">
+                            <div class="carousel-slide"><img src="assets/foto4.jpeg" alt="Aqui o seu tempo é respeitado"></div>
+                            <div class="carousel-slide"><img src="assets/foto5.jpeg" alt="Você não precisa passar por isso sozinho"></div>
+                            <div class="carousel-slide"><img src="assets/foto6.jpeg" alt="Você tem medo de dentista?"></div>
+                        </div>
+                        <button class="carousel-btn carousel-prev" id="prevBtn2" aria-label="Anterior">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+                        </button>
+                        <button class="carousel-btn carousel-next" id="nextBtn2" aria-label="Próximo">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                        </button>
+                        <div class="carousel-dots">
+                            <button class="dot active" data-index="0"></button>
+                            <button class="dot" data-index="1"></button>
+                            <button class="dot" data-index="2"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section id="depoimentos" class="testimonials">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">✦ O que dizem nossos pacientes</span>
+                    <h2>Depoimentos</h2>
+                    <p>A satisfação dos nossos pacientes é a nossa maior conquista.</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Tinha muito medo de dentista, mas a Dra. Daniele mudou isso completamente. O atendimento é incrível, muito cuidadoso e sem dor. Fiz o AirFlow e fiquei impressionada com o resultado!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">M</div>
+                            <div>
+                                <strong>Maria Clara S.</strong>
+                                <span>Paciente há 2 anos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Fiz minhas lentes de contato dentais com a Dra. Daniele e o resultado superou todas as expectativas. Profissional extremamente competente e atenciosa. Super recomendo!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">R</div>
+                            <div>
+                                <strong>Rodrigo A.</strong>
+                                <span>Paciente há 1 ano</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p>"O consultório é lindo, moderno e muito acolhedor. A Dra. Daniele explica cada passo do procedimento, o que me deixa muito mais tranquila. Melhor dentista que já tive!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">A</div>
+                            <div>
+                                <strong>Ana Paula L.</strong>
+                                <span>Paciente há 3 anos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOCALIZAÇÃO -->
+        <section id="localizacao" class="location-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">✦ Onde estamos</span>
+                    <h2>Nossa Localização</h2>
+                    <p>Venha nos visitar! Estamos no coração do Setor Sudoeste, em Brasília.</p>
+                </div>
+
+                <div class="location-grid">
+                    <!-- Mapa clicável -->
+                    <a 
+                        href="https://maps.google.com/?q=Centro+Clínico+Sudoeste+Brasilia+DF"
+                        target="_blank"
+                        class="map-wrapper reveal"
+                        aria-label="Abrir no Google Maps"
+                    >
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6298.331078208343!2d-47.9356844731698!3d-15.804863434836902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3077f2aaaaab%3A0x75e8342ce30b592e!2sCentro%20Cl%C3%ADnico%20Sudoeste!5e1!3m2!1spt-BR!2sbr!4v1790096214004!5m2!1spt-BR!2sbr"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localização Dra. Daniele Marques"
+                        ></iframe>
+                        <div class="map-overlay">
+                            <span>
+                                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                Abrir no Google Maps
+                            </span>
+                        </div>
+                    </a>
+
+                    <!-- Informações -->
+                    <div class="location-info reveal">
+                        <div class="location-card">
+                            <div class="location-icon">📍</div>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Setor Sudoeste SHC/SW CHSW<br>Centro Clínico, Bloco 04/05 — Sala 216<br>Brasília - DF, CEP 70673-416</p>
+                                <a 
+                                    href="https://maps.google.com/?q=Centro+Clínico+Sudoeste+Brasilia+DF" 
+                                    target="_blank" 
+                                    class="location-link"
+                                >
+                                    Ver no Google Maps →
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="location-card">
+                            <div class="location-icon">🕐</div>
+                            <div>
+                                <h4>Horário de Atendimento</h4>
+                                <div class="hours-list">
+                                    <div class="hours-row">
+                                        <span>Segunda a Sexta</span>
+                                        <span>08h – 18h</span>
+                                    </div>
+                                    <div class="hours-row">
+                                        <span>Sábado</span>
+                                        <span>08h – 12h</span>
+                                    </div>
+                                    <div class="hours-row closed">
+                                        <span>Domingo</span>
+                                        <span>Fechado</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="location-card">
+                            <div class="location-icon">🚗</div>
+                            <div>
+                                <h4>Como Chegar</h4>
+                                <p>Estacionamento disponível no Centro Clínico. Acesso fácil pelo Setor Sudoeste, próximo à Av. das Nações.</p>
+                            </div>
+                        </div>
+
+                        <a href="https://maps.google.com/?q=Centro+Clínico+Sudoeste+Brasilia+DF" target="_blank" class="btn btn-primary" style="width:100%; text-align:center;">
+                            Traçar Rota no Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA BANNER -->
+        <section class="cta-banner">
+            <div class="container">
+                <div class="cta-content reveal">
+                    <div class="cta-text">
+                        <h2>Pronto para transformar seu sorriso?</h2>
+                        <p>Agende sua consulta hoje e descubra o cuidado odontológico que você merece.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="https://wa.me/5561981646588" target="_blank" class="btn btn-white">Agendar pelo WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contato" class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="assets/Dra.Daniele.png" alt="Logo Dra. Daniele" class="footer-logo">
+                <p>Transformando vidas através do sorriso com tecnologia e dedicação.</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/dra.danielemarques.dentista/" target="_blank" aria-label="Instagram">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+                    </a>
+                    <a href="https://wa.me/5561981646588" target="_blank" aria-label="WhatsApp">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#airflow">AirFlow</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact-info">
+                <h3>Contato</h3>
+                <p>
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    SHC/SW CHSW Blocos 03/04/05 Sala 216 — Brasília, DF
+                </p>
+                <p>
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9a16 16 0 0 0 6.29 6.29l1.1-1.26a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <a href="https://wa.me/5561981646588" target="_blank">(61) 98164-6588</a>
+                </p>
+                <p>
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <a href="mailto:contato@dradaniele.com.br">contato@dradaniele.com.br</a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Dra. Daniele Marques. Todos os direitos reservados.</p>
+                <p>Cirurgiã-Dentista · CRO 13754/DF</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÕES FLUTUANTES -->
+    <div class="social-floaters">
+        <a href="https://www.instagram.com/dra.danielemarques.dentista/" target="_blank" class="floater-btn floater-ig" aria-label="Instagram">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+        </a>
+        <a href="https://wa.me/5561981646588" target="_blank" class="floater-btn floater-wa" aria-label="WhatsApp">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
