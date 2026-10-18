@@ -40,6 +40,7 @@
                 <li><a href="#airflow">AirFlow</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#duvidas">Dúvidas</a></li>
                 <li><a href="#localizacao">Localização</a></li>
                 <li><a href="#contato" class="btn btn-primary btn-sm">Agendar</a></li>
             </ul>
@@ -61,6 +62,7 @@
             <li><a href="#airflow">AirFlow</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#duvidas">Dúvidas</a></li>
             <li><a href="#localizacao">Localização</a></li>
             <li><a href="#contato" class="btn btn-primary">Agendar Consulta</a></li>
         </ul>
@@ -115,7 +117,7 @@
                 <div class="services-grid">
                     <article class="service-card reveal">
                         <div class="service-icon">🦷</div>
-                        <h3>AirFlow</h3>
+                        <h3>AirFlow <span style="font-weight:400; font-size:0.82em; color:var(--text-muted)">(Limpeza Dentária)</span></h3>
                         <p>Limpeza profunda com o equipamento mais tecnológico da geração, garantindo conforto e eficácia sem dor.</p>
                         <a href="#airflow" class="service-link">Saiba mais →</a>
                     </article>
@@ -127,9 +129,9 @@
                     </article>
 
                     <article class="service-card reveal">
-                        <div class="service-icon">📏</div>
-                        <h3>Ortodontia</h3>
-                        <p>Alinhadores invisíveis e aparelhos modernos para correção precisa em todas as idades.</p>
+                        <div class="service-icon">🦷</div>
+                        <h3>Sensibilidade Dentária</h3>
+                        <p>Diagnóstico preciso e tratamento personalizado para eliminar a dor ao consumir alimentos quentes, frios ou doces.</p>
                     </article>
 
                     <article class="service-card reveal">
@@ -321,6 +323,67 @@
                         </div>
                     </div>
 
+                    <!-- Carrossel 3 -->
+                    <div class="carousel-wrapper reveal">
+                        <div class="carousel-track" id="carouselTrack3">
+                            <div class="carousel-slide"><img src="assets/foto8.jpeg" alt="5 Cuidados Simples para manter seus dentes saudáveis"></div>
+                            <div class="carousel-slide"><img src="assets/foto9.jpeg" alt="1. Higiene diária adequada"></div>
+                            <div class="carousel-slide"><img src="assets/foto10.jpeg" alt="2. Alimentação equilibrada"></div>
+                            <div class="carousel-slide"><img src="assets/foto11.jpeg" alt="3. Consultas Regulares"></div>
+                            <div class="carousel-slide"><img src="assets/foto12.jpeg" alt="4. Beba bastante água"></div>
+                            <div class="carousel-slide"><img src="assets/foto13.jpeg" alt="5. Evite o excesso de açúcar"></div>
+                        </div>
+                        <button class="carousel-btn carousel-prev" id="prevBtn3" aria-label="Anterior">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+                        </button>
+                        <button class="carousel-btn carousel-next" id="nextBtn3" aria-label="Próximo">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                        </button>
+                        <div class="carousel-dots">
+                            <button class="dot active" data-index="0"></button>
+                            <button class="dot" data-index="1"></button>
+                            <button class="dot" data-index="2"></button>
+                            <button class="dot" data-index="3"></button>
+                            <button class="dot" data-index="4"></button>
+                            <button class="dot" data-index="5"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTO EM VÍDEO -->
+        <section class="video-testimonial-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">✦ Quem viveu, conta</span>
+                    <h2>Depoimento Real</h2>
+                    <p>Veja o que a Amanda achou do seu tratamento com a Dra. Daniele.</p>
+                </div>
+
+                <div class="video-testimonial-grid">
+                    <div class="video-testimonial-player reveal">
+                        <video controls preload="metadata">
+                            <source src="assets/video5.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="video-testimonial-info reveal">
+                        <div class="vt-stars">⭐⭐⭐⭐⭐</div>
+                        <h3>"Experiência maravilhosa!!"</h3>
+                        <p>A Amanda gravou esse vídeo espontaneamente após sua experiência com a Dra. Daniele — incluindo o procedimento AirFlow e o atendimento humanizado que só ela oferece.</p>
+                        <div class="vt-author">
+                            <div class="vt-avatar">A</div>
+                            <div>
+                                <strong>Amanda Silva</strong>
+                                <span>Paciente · Avaliação Google ⭐ 5.0</span>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/5561981646588" target="_blank" class="btn btn-primary" style="margin-top: 28px;">
+                            Quero uma experiência assim também →
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -337,39 +400,126 @@
                 <div class="testimonials-grid">
                     <div class="testimonial-card reveal">
                         <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                        <p>"Tinha muito medo de dentista, mas a Dra. Daniele mudou isso completamente. O atendimento é incrível, muito cuidadoso e sem dor. Fiz o AirFlow e fiquei impressionada com o resultado!"</p>
+                        <p>"Sensacional a limpeza airflow é um sucesso, sem incômodos ou desconforto. Esqueça a limpeza convencional de antes. O atendimento tranquilo ambientado com música agradável e aromaterapia deixam o procedimento ainda mais espetacular."</p>
                         <div class="testimonial-author">
                             <div class="author-avatar">M</div>
                             <div>
-                                <strong>Maria Clara S.</strong>
-                                <span>Paciente há 2 anos</span>
+                                <strong>Marcio Olliveira</strong>
+                                <span>Avaliação Google ⭐ 5.0</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="testimonial-card reveal">
                         <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                        <p>"Fiz minhas lentes de contato dentais com a Dra. Daniele e o resultado superou todas as expectativas. Profissional extremamente competente e atenciosa. Super recomendo!"</p>
+                        <p>"Dra maravilhosa, bem atenciosa e cuidadosa."</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">R</div>
+                            <div class="author-avatar">S</div>
                             <div>
-                                <strong>Rodrigo A.</strong>
-                                <span>Paciente há 1 ano</span>
+                                <strong>Stephanie Marra</strong>
+                                <span>Avaliação Google ⭐ 5.0</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="testimonial-card reveal">
                         <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                        <p>"O consultório é lindo, moderno e muito acolhedor. A Dra. Daniele explica cada passo do procedimento, o que me deixa muito mais tranquila. Melhor dentista que já tive!"</p>
+                        <p>"Experiência maravilhosa!! A Drª Daniele muito atenciosa e detalhista. Amei o procedimento. Super recomendooooo! ❤️✨"</p>
                         <div class="testimonial-author">
                             <div class="author-avatar">A</div>
                             <div>
-                                <strong>Ana Paula L.</strong>
-                                <span>Paciente há 3 anos</span>
+                                <strong>Amanda Silva</strong>
+                                <span>Avaliação Google ⭐ 5.0</span>
                             </div>
                         </div>
                     </div>
+
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Ja sou cliente da Dra. Daniele faz 3 anos e so tenho elogios. Sempre muito atenciosa e profissional. Ja realizei diversos procedimentos e ficaram perfeitos! Sem falar da organização. Sempre sou notificados pela sua equipe na hora do retorno. O ambiente é perfeito e ela usa uma play list durante os procedimentos que faz toda a diferença!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">D</div>
+                            <div>
+                                <strong>Dante Pereira</strong>
+                                <span>Avaliação Google ⭐ 5.0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DÚVIDAS FREQUENTES -->
+        <section id="duvidas" class="faq-videos-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">✦ Tire suas dúvidas</span>
+                    <h2>Dúvidas Frequentes</h2>
+                    <p>A Dra. Daniele responde as perguntas mais comuns dos pacientes.</p>
+                </div>
+
+                <div class="faq-videos-grid">
+
+                    <div class="faq-video-card reveal">
+                        <div class="faq-video-wrapper">
+                            <video controls preload="metadata" poster="">
+                                <source src="assets/video1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="faq-video-info">
+                            <span class="faq-number">01</span>
+                            <div>
+                                <h4>5 Sinais que sua boca está pedindo atenção</h4>
+                                <p>Conheça os principais sinais de alerta que indicam que você precisa visitar o dentista.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-video-card reveal">
+                        <div class="faq-video-wrapper">
+                            <video controls preload="metadata">
+                                <source src="assets/video2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="faq-video-info">
+                            <span class="faq-number">02</span>
+                            <div>
+                                <h4>Sensibilidade nos dentes</h4>
+                                <p>Entenda as causas da sensibilidade dentária e como tratá-la de forma eficaz.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-video-card reveal">
+                        <div class="faq-video-wrapper">
+                            <video controls preload="metadata">
+                                <source src="assets/video3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="faq-video-info">
+                            <span class="faq-number">03</span>
+                            <div>
+                                <h4>Como ter um sorriso mais saudável</h4>
+                                <p>Dicas e indicações práticas da Dra. Daniele para você conquistar um sorriso bonito e saudável.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-video-card reveal">
+                        <div class="faq-video-wrapper">
+                            <video controls preload="metadata">
+                                <source src="assets/video4.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="faq-video-info">
+                            <span class="faq-number">04</span>
+                            <div>
+                                <h4>AirFlow: como funciona?</h4>
+                                <p>Descubra como a tecnologia AirFlow revoluciona a limpeza dental e por que ela é diferente.</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -434,10 +584,6 @@
                                     <div class="hours-row">
                                         <span>Segunda a Sexta</span>
                                         <span>08h – 18h</span>
-                                    </div>
-                                    <div class="hours-row">
-                                        <span>Sábado</span>
-                                        <span>08h – 12h</span>
                                     </div>
                                     <div class="hours-row closed">
                                         <span>Domingo</span>

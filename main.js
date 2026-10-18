@@ -142,3 +142,4 @@ function initCarousel(trackId, prevId, nextId) {
 
 initCarousel("carouselTrack1", "prevBtn1", "nextBtn1");
 initCarousel("carouselTrack2", "prevBtn2", "nextBtn2");
+initCarousel("carouselTrack3", "prevBtn3", "nextBtn3");
